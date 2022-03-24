@@ -1,0 +1,17 @@
+.footer{
+    background-color: #123653;
+    color: white;
+}
+.footer-link-info {
+    text-align: left;
+    margin-top: 1rem;
+} 
+
+.media-link {
+    color: transparent;
+    margin: 2px 5px;
+}
+.media-link .media-pic{
+    background-color: #34485a;
+    border-radius: 50px;
+}

@@ -1,0 +1,88 @@
+ .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+} 
+
+.nav-menu{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-menu li a {
+    text-decoration: none;
+    color: #153754;
+}
+.btn-inscription{
+    padding: 5px 15px;
+    background: #153754;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+.btn-inscription:hover{
+background-color: #E86161;
+}
+.btn-connexion{
+    padding: 5px 15px;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    color: #153754;
+}
+.btn-connexion:hover{
+    color: #E86161 ;
+}
+
+
+
+.dropbtn {
+       background-color: white;
+    color: #153754;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px
+        0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #E86161 ;
+}

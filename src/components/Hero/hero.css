@@ -1,0 +1,14 @@
+.hero{
+    background-image: url("../../images/banner.png");
+    width: 1348px;
+    height: 650px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .content{
+    color: white;
+    
+    text-align: left;
+  }
